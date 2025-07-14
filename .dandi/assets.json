@@ -32,6 +32,8 @@
 ],
 "dateModified":
 "2025-07-14T17:08:53.736996+05:30",
+"datePublished":
+"2025-07-14T12:18:13.760697+00:00",
 "digest":
 {
 "dandi:dandi-etag":
@@ -49,6 +51,34 @@
 [],
 "path":
 "sub-BRAVO1/sub-BRAVO1.nwb",
+"publishedBy":
+{
+"endDate":
+"2025-07-14T12:18:13.760697+00:00",
+"id":
+"urn:uuid:3aa34e09-0616-4d24-a7a9-3911b7c8c2ab",
+"name":
+"DANDI publish",
+"schemaKey":
+"PublishActivity",
+"startDate":
+"2025-07-14T12:18:13.760697+00:00",
+"wasAssociatedWith":
+[
+{
+"id":
+"urn:uuid:a9de8d37-4024-4d63-a5b0-91b1098203bf",
+"identifier":
+"RRID:SCR_017571",
+"name":
+"DANDI API",
+"schemaKey":
+"Software",
+"version":
+"0.1.0"
+}
+]
+},
 "relatedResource":
 [],
 "schemaKey":
@@ -144,7 +174,7 @@
 ]
 },
 "modified":
-"2025-07-14T12:07:41.008192Z",
+"2025-07-14T12:18:13.763040Z",
 "path":
 "sub-BRAVO1/sub-BRAVO1.nwb",
 "size":

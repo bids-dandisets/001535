@@ -8,9 +8,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 4773567412
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Natraj, Nikhilesh (2025) Sampling representational plasticity of simple
   imagined movements across days enables long-term neuroprosthetic control (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001535/draft
@@ -30,6 +42,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-07-13T04:37:45.082548+00:00'
+datePublished: '2025-07-14T12:18:13.608172+00:00'
 description: 'Long-term electrocorticographic (ECoG) training data during contextual
   brain computer interface (BCI) control in a tetraplegic human participant. The data
   uploaded represent long-term recordings from a 128 channel ECoG grid over contralateral
@@ -57,6 +70,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001535/versions/draft/assets/
 name: Sampling representational plasticity of simple imagined movements across days
   enables long-term neuroprosthetic control
+publishedBy:
+  endDate: '2025-07-14T12:18:13.608172+00:00'
+  id: urn:uuid:e03adce4-9ba1-4d4b-b75c-39a193496e85
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-14T12:18:13.608172+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:78248fee-2328-4571-9a6a-a866b3b2b36a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: '10.1016/j.cell.2025.02.001 '
   name: Sampling representational plasticity of simple imagined movements across days
