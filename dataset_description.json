@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "Long-term electrocorticographic (ECoG) training data during contextual brain computer interface (BCI) control in a tetraplegic human participant. The data uploaded represent long-term recordings from a 128 channel ECoG grid over contralateral sensorimotor cortex when trying to access directions in 3D space (6 axial directions plus 1 for the origin for a total of 7 directional targets). Data from individual variable length training trials from these long-term recordings have been collated and uploaded for the development and testing of novel BCI decoding architectures. For example, these trials can be used to train proficient deep learning neural network based BCI decoders to discern directional control. The trials are collated from a multitude of BCI contexts e.g., control in a virtual environment, with a physical real-world robot, during open loop and closed loop control. The neural features are a combination of high gamma amplitude activity (70-150Hz) and low-frequency motor cortical potentials (<25Hz), down sampled from the original 1KhZ sampling rate to 100Hz. Paper describing the scientific rationale, engineering approach, signal processing, experiments, data and a baseline deep learning decoder (stacked bi-directional LSTMs) can be found here: https://www.cell.com/cell/fulltext/S0092-8674(25)00157-6   ",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Natraj, Nikhilesh"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
